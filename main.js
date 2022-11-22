@@ -1,12 +1,18 @@
-const name = 'DX LABS'
+/** old way of declaring function */
+function displayWelcomeMessage(name) {
+  return 'Welcome to ' + name
+}
 
-/** this code will return you an error */
-// name = 'DX TRANSFORMATION'
-
-/** and this one also */
-// const name = 'I LOVE THIS JOB'
-
-/** this will work  */
-// function  showName() {
-//   const name = 'DX TRANSFORMATION'
+/** new way of declaring function */
+// const displayWelcomeMessage = (name) => {
+//   return 'Welcome to ' + name
 // }
+
+/** one liner code */
+// const displayWelcomeMessage = (name) => 'Welcome to ' + name
+
+/** shortest way of declaring */
+// const displayWelcomeMessage = name => 'Welcome to ' + name
+
+
+console.log(displayWelcomeMessage('DX LABS!'))
