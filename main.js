@@ -1,12 +1,14 @@
-const name = 'DX LABS'
+let name = 'DX LABS'
 
 /** this code will return you an error */
+// let name = 'I LOVE THIS JOB'
+
+/** this code will work */
 // name = 'DX TRANSFORMATION'
 
-/** and this one also */
-// const name = 'I LOVE THIS JOB'
-
 /** this will work  */
-// function  showName() {
-//   const name = 'DX TRANSFORMATION'
-// }
+function  showName() {
+  let name = 'DX TRANSFORMATION'
+}
+
+console.log(name)
