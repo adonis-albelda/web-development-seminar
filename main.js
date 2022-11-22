@@ -1,12 +1,10 @@
-const name = 'DX LABS'
+/** old way of concatinating string and variables - ES5 */
+let firstname = 'DX'
+let lastname = 'TRANSFORMATION'
+let fullname = firstname+' '+lastname
 
-/** this code will return you an error */
-// name = 'DX TRANSFORMATION'
+/** new way of concatinating string and variables - ES6 */
+// let fullname = `${firstname} ${lastname}`
 
-/** and this one also */
-// const name = 'I LOVE THIS JOB'
 
-/** this will work  */
-// function  showName() {
-//   const name = 'DX TRANSFORMATION'
-// }
+console.log(fullname)
