@@ -1,12 +1,14 @@
-const name = 'DX LABS'
+/** old way of declaring default values - ES5 */
+var calculateArea = function(height, width) {  
+  height =  height || 50;
+  width = width || 80;
 
-/** this code will return you an error */
-// name = 'DX TRANSFORMATION'
+  return height * width;
+}
 
-/** and this one also */
-// const name = 'I LOVE THIS JOB'
-
-/** this will work  */
-// function  showName() {
-//   const name = 'DX TRANSFORMATION'
+/** new way of declaring default values - ES6 */
+// let calculateArea = function(height = 100, width = 50) {  
+//   return height * width;
 // }
+
+console.log(calculateArea())
