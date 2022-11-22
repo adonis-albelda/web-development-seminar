@@ -6,9 +6,9 @@ let name = 'DX LABS'
 /** this code will work */
 // name = 'DX TRANSFORMATION'
 
-/** this will work  */
-function  showName() {
-  let name = 'DX TRANSFORMATION'
-}
+/** this will work too  */
+// function  showName() {
+//   let name = 'DX TRANSFORMATION'
+// }
 
 console.log(name)
