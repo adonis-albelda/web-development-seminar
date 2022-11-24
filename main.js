@@ -1,12 +1,3 @@
-const name = 'DX LABS'
+import {companyName} from './person.js'
 
-/** this code will return you an error */
-// name = 'DX TRANSFORMATION'
-
-/** and this one also */
-// const name = 'I LOVE THIS JOB'
-
-/** this will work  */
-// function  showName() {
-//   const name = 'DX TRANSFORMATION'
-// }
+console.log(companyName)
