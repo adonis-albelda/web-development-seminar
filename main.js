@@ -1,12 +1,34 @@
-const name = 'DX LABS'
+// // before you would do something like this
+const person = {
+  name: 'Sara',
+  age: 25,
+  gender: 'female'    
+}
 
-/** this code will return you an error */
-// name = 'DX TRANSFORMATION'
+// const numbers = [0, 1, 2, 3, 4, 5]
 
-/** and this one also */
-// const name = 'I LOVE THIS JOB'
+/** old way of getting property inside of object and assing it to a variable */
 
-/** this will work  */
-// function  showName() {
-//   const name = 'DX TRANSFORMATION'
-// }
+/** for object */
+// let name = person.name;
+// let age = person.age;
+// let gender = person.gender;
+
+/** for array */
+// let firstNumber = numbers[0]
+
+/** new way of doing it */
+
+/** for object */
+// let { name, age, gender } = person;
+
+/** for array */
+// let [firstNumber] = numbers
+
+/** results for object */
+// console.log(name); // Sara
+// console.log(age); // 25
+// console.log(gender); // female
+
+/** results for array */
+// console.log(firstNumber)
