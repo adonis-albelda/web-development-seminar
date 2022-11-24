@@ -1,12 +1,5 @@
-const name = 'DX LABS'
+let arr1 = ['one', 'two'];
+let arr2 = [...arr1, 'three', 'four', 'five'];
 
-/** this code will return you an error */
-// name = 'DX TRANSFORMATION'
 
-/** and this one also */
-// const name = 'I LOVE THIS JOB'
-
-/** this will work  */
-// function  showName() {
-//   const name = 'DX TRANSFORMATION'
-// }
+console.log(arr2);
