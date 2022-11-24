@@ -1,5 +1,11 @@
-let arr1 = ['one', 'two'];
-let arr2 = [...arr1, 'three', 'four', 'five'];
+// returns a promise
+let countValue = new Promise(function (resolve, reject) {
+  resolve('Promise resolve'); 
+});
 
-
-console.log(arr2);
+// executes when promise is resolved successfully
+countValue.then((data) => {
+  console.log(data)
+}).catch((error) => {
+  console.error('Opps! something went wrong!')
+})
